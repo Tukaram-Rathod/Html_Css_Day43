@@ -1,0 +1,85 @@
+<!doctype html>
+<title>Sample Website Layout </title>
+<style>
+    *{
+      box-sizing: border-box; 
+    }
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      margin: 0;
+    }
+    #main {
+      display: flex;
+      flex: 1;
+    }
+    #main > article {
+      flex: 1;
+      order: 1;
+    }
+    #main > nav, 
+    #main > aside {
+      flex: 0 0 20vw;
+    }
+    #main > nav {
+      background: #D7E8D4;
+      order: 3;
+    }
+    #main > aside {
+      background: beige;
+      order: 2;
+    }
+    header, footer {
+      background: rgb(202, 205, 50);
+      height: 20vh;
+    }
+    header, footer, article, nav, aside {
+      padding: 1em;
+    }
+  </style>
+
+<body>
+    <header>Indian Cricketer</header>
+    <div id="main">
+      <article>About Indian Cricket Player
+        <h2>First Para</h2
+          <p>
+            Former England spinner Monty Panesar feels New Zealand will hold the edge over India in the World Test Championship 
+            final if conditions favour the pacers at the Ageas Bowl in Southampton. It is rainy and cold in the UK at the moment 
+            and if it stays that way for the WTC final starting from June 18, then it will be advantage New Zealand, feels Panesar.
+            "At the moment there is a lot of rain around. If the weather stays like this then it will be an interesting battle 
+            between the Indian and New Zealand seamers," Panesar told PTI over the phone from UK. 
+
+            "The New Zealand batsman also play the moving ball better than Indian batsmen. So, that, that would be quite 
+            interesting to see if the ball is swinging and moving at some stage during the Test match, how the Indian batsmen, 
+            stand up to it compared to the New Zealand," he added.   
+                  
+          </p>
+    </article>
+
+    <nav>        
+        <h2>Third Para</h2>
+        However, if it is nice and sunny in the port city of Southampton, then the conditions will suit India more, 
+        said the former left-arm spinner.
+        
+        Panesar also expects the ICC to prepare a neutral wicket and not a green top as the WTC is supposed to be a 
+        good advert for the five-day game.
+        
+        "They have got a great draining system at the Ageas Bowl. Normally you see nice good hot weather. Hopefully, 
+        the game will go on for the whole four to five days," he said.
+    </nav>
+
+    <aside>
+        <h2>Second Para</h2>
+        "On that basis, you are looking at two spinners (R Ashwin and R Jadeja) from India and three seamers. 
+        If the weather is clear then India become favourites. So it depends a lot on the conditions."
+        
+        Indian team will arrive in the UK on June 2 and will get a little over 10 days to train. New Zealand, 
+        on the other hand, are playing two Tests against England before the WTC final and many see it as a big advantage 
+        but Panesar reckons it can be a double-edged sword.
+        
+    </aside>
+  </div>
+  <footer>India last won a Test series in England in 2007.</footer>
+</body>

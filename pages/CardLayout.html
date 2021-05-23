@@ -1,0 +1,85 @@
+<!doctype html>
+<title>List Card Layout</title>
+<style>
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+</style>
+
+<main class="cards">
+  <article class="card">
+    <img src="../assets/2.jpg" alt="Rohit Sharma">
+    <div class="text">
+      <h3>Rohit Sharma</h3>
+      <p>Personal Information
+        BornApr 30, 1987 (34 years)Birth PlaceNagpur, MaharashtraHeight--RoleBatsmanBatting StyleRight Handed BatBowling StyleRight-arm offbreak</p>
+      <button>Here's why</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/3.jpg" alt="MS Dhoni">
+    <div class="text">
+      <h3>MS Dhoni</h3>
+      <p>Personal Information
+        BornJul 07, 1981 (39 years)Birth PlaceRanchi, Bihar (now Jharkhand)Height5 ft 11 in (180 cm)RoleWK-BatsmanBatting StyleRight Handed BatBowling StyleRight-arm medium</p>
+      <button>Here's how</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/4.jpg" alt="Virat Kohli">
+    <div class="text">
+      <h3>Virat Kohli</h3>
+      <p>Personal Information
+        BornNov 05, 1988 (32 years)Birth PlaceDelhiHeight5 ft 9 in (175 cm)RoleBatsmanBatting StyleRight Handed BatBowling StyleRight-arm medium</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/5.jpg" alt="Hardik Pandya">
+    <div class="text">
+      <h3>Hardik Pandya</h3>
+      <p>Personal Information
+        BornOct 11, 1993 (27 years)Birth PlaceChoryasi, GujaratHeight--RoleBatting AllrounderBatting StyleRight Handed BatBowling StyleRight-arm fast-medium</p>
+      <button>Just do it...</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/6.jpg" alt="Shikhar Dhawan">
+    <div class="text">
+      <h3>Shikhar Dhawan</h3>
+      <p>Personal Information
+        BornDec 05, 1985 (35 years)Birth PlaceDelhiHeight--RoleBatsmanBatting StyleLeft Handed BatBowling StyleRight-arm offbreak</p>
+      <button>Here's why</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/7.jpg" alt="Yuvraj Singh">
+    <div class="text">
+      <h3>Yuvraj Singh</h3>
+      <p>Personal Information
+        BornDec 12, 1981 (39 years)Birth PlaceChandigarhHeight6 ft 2 in (188 cm)RoleBatting AllrounderBatting StyleLeft Handed BatBowling StyleLeft-arm orthodox</p>
+      <button>Stop here</button>
+    </div>
+  </article>
+</main>
